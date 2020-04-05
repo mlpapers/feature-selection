@@ -4,10 +4,10 @@ Feature selection is the process of selecting a subset of relevant features (var
 ### Filter methods
 
 ### Wrapper methods
-* Boruta. All-relevant feature selection<br>
+* Boruta. All-relevant feature selection ([CRAN](https://cran.r-project.org/web/packages/Boruta/), [PyPI](https://pypi.org/project/Boruta/))<br>
   [Boruta – A System for Feature Selection](https://www.mimuw.edu.pl/~ajank/papers/Kursa2010.pdf) (2010) *Miron B. Kursa,  Aleksander Jankowski,  Witold R. Rudnick*
-* MUVR<br>
-  [Variable selection and validation in multivariate modelling](https://academic.oup.com/bioinformatics/article/35/6/972/5085367) (2018) *Lin Shi, Johan A Westerhuis, Johan Rosén, Rikard Landberg, Carl Brunius*
+* MUVR ([GitLab](https://gitlab.com/CarlBrunius/MUVR))<br>
+  [Variable selection and validation in multivariate modelling](https://academic.oup.com/bioinformatics/article/35/6/972/5085367) (2018) *Lin Shi, Johan A Westerhuis, Johan Rosén, Rikard Landberg, Carl Brunius*<br>
 
 ### Embedded methods
 * LASSO<br>
