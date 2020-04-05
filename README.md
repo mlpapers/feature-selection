@@ -2,7 +2,7 @@
 Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
 
 ### Filter methods
-* **Mutual information** ([Wiki](https://en.wikipedia.org/wiki/Mutual_information)))
+* **Mutual information** ([Wiki](https://en.wikipedia.org/wiki/Mutual_information))
   * [Estimating mutual information](https://arxiv.org/pdf/cond-mat/0305641.pdf) (2003) *Alexander Kraskov, Harald Stoegbauer, Peter Grassberger*
 * **Relief** ([Wiki](https://en.wikipedia.org/wiki/Relief_(feature_selection)))
   * [The Feature Selection Problem: Traditional Methods and a New Algorithm](https://www.aaai.org/Papers/AAAI/1992/AAAI92-020.pdf) (1992) *Kira Kenji, Larry Rendell*
