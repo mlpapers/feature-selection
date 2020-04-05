@@ -1,7 +1,9 @@
-## Feature selection (variable selection)
+# Feature selection (variable selection)
 Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
 
 ### Filter methods
+* Relief ([Wiki](https://en.wikipedia.org/wiki/Relief_(feature_selection))  
+  [The Feature Selection Problem: Traditional Methods and a New Algorithm](https://www.aaai.org/Papers/AAAI/1992/AAAI92-020.pdf) (1992) *Kira Kenji, Larry Rendell*
 
 ### Wrapper methods
 * Boruta. All-relevant feature selection ([CRAN](https://cran.r-project.org/web/packages/Boruta/), [PyPI](https://pypi.org/project/Boruta/))<br>
