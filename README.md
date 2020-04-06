@@ -1,11 +1,11 @@
 # Feature selection (variable selection)
-Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
+> Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
 
 Why feature selection?
-- Data exploration
-- Curse of dimensionality
-- Less features - faster models
-- Better metrics
+1. Data exploration
+2. Curse of dimensionality
+3. Less features - faster models
+4. Better metrics
 
 - [An Introduction to Variable and Feature Selection](http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf) (2003) *Isabelle Guyon, Andre Elisseeff*
 
