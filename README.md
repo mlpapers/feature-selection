@@ -7,11 +7,15 @@ Why feature selection?
 3. Less features - faster models
 4. Better metrics
 
-- [An Introduction to Variable and Feature Selection](http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf) (2003) *Isabelle Guyon, Andre Elisseeff*
+- **Overview**
+  - [An Introduction to Variable and Feature Selection](http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf) (2003) *Isabelle Guyon, Andre Elisseeff*
+  - [A Survey on Feature Selection](https://www.sciencedirect.com/science/article/pii/S1877050916313047) (2016) *Jianyu Miaoac, Lingfeng Niu*
+  - [Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review](https://arxiv.org/pdf/1905.02845.pdf) (2019) *Benyamin Ghojogh, Maria N. Samad, Sayema Asif Mashhadi,Tania Kapoor, Wahab Ali, Fakhri Karray, Mark Crowle*
 
 ### Filter methods
 Filter methods use model-free ranking to filter less relevant features
 - **Correlation** ([Wiki](https://en.wikipedia.org/wiki/Correlation_and_dependence))
+- **χ²** Chi-squared statistic ([Wiki](https://en.wikipedia.org/wiki/Chi-squared_test))
 - **Mutual information** ([Wiki](https://en.wikipedia.org/wiki/Mutual_information))
   - [Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection](http://jmlr.csail.mit.edu/papers/volume13/brown12a/brown12a.pdf) (2012) *Gavin Brown, Adam Pocock, Ming-Jie Zhao, Mikel Lujan*
   - [Feature Selection Based on Joint Mutual Information](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.4424) (1999) *Howard Hua Yang, John Moody*
@@ -20,6 +24,12 @@ Filter methods use model-free ranking to filter less relevant features
   - [Feature selection based on mutual information: criteria of max-dependency, max-relevance, and min-redundancy](http://home.penglab.com/papersall/docpdf/2005_TPAMI_FeaSel.pdf) (2005) *Hanchuan Peng, Fuhui Long, Chris Ding*
 - **Relief** ([Wiki](https://en.wikipedia.org/wiki/Relief_(feature_selection)))
   - [The Feature Selection Problem: Traditional Methods and a New Algorithm](https://www.aaai.org/Papers/AAAI/1992/AAAI92-020.pdf) (1992) *Kira Kenji, Larry Rendell*
+- **Markov Blanket** ([Wiki](https://en.wikipedia.org/wiki/Markov_blanket))
+  - [Markov Blanket based Feature Selection: A Review of Past Decade](http://www.iaeng.org/publication/WCE2010/WCE2010_pp321-328.pdf) (2010) *Shunkai Fu, Michel C. Desmarais*
+  - Incremental Association Markov Blanket: [Algorithms for Large Scale Markov Blanket Discovery](https://www.aaai.org/Papers/FLAIRS/2003/Flairs03-073.pdf) (2003) *Ioannis Tsamardinos, Constantin F. Aliferis, Alexander Statnikov*
+  - Grow-Shrink algorithm: [Bayesian Network Induction via Local Neighborhoods](http://robots.stanford.edu/papers/Margaritis99a.pdf) (2000) *Dimitris Margaritis, Sebastian Thrun*
+  - Koller-Sahami method: [Toward Optimal Feature Selection](http://ilpubs.stanford.edu:8090/208/1/1996-77.pdf) (1996) *Daphne Koller and Mehran Sahami*
+  - Max-Min Markov Blanket: [Time and Sample Efficient Discovery of Markov Blankets and Direct Causal Relations](https://dl.acm.org/doi/10.1145/956750.956838) (2003) *Ioannis Tsamardinos, Constantin F. Aliferis, Alexander Statnikov*
 
 ### Wrapper methods
 Wrapper methods use a model and its performance to find the best feature subset
