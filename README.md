@@ -101,4 +101,5 @@ Wrapper methods use a model and its performance to find the best feature subset
   - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
 - **Python**
   - Package: sklearn.feature_selection
+  - Package: feature-selector ([Code](https://github.com/WillKoehrsen/feature-selector), [PyPI](https://pypi.org/project/feature-selector/))
 
