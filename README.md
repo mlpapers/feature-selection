@@ -75,16 +75,30 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Conditional Variable Importance for Random Forests](https://epub.ub.uni-muenchen.de/2821/1/deck.pdf) (2008) *Carolin Strobl, Anne-Laure Boulesteix, Thomas Kneib, Thomas Augustin, Achim Zeileis*
   - [Correlation and variable importance in random forests](https://arxiv.org/pdf/1310.5726.pdf) (2016) *Baptiste Gregorutti, Bertrand Michel, Philippe Saint-Pierre*
 - **Gradient Boosting** ([Wiki](https://en.wikipedia.org/wiki/Gradient_boosting))
+  - [Greedy Function Approximation: A Gradient Boosting Machine](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf) (1999) *Jerome H Friedman*
+  - [Boosting Algorithms as Gradient Descent](http://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent.pdf) (1999) *Llew Mason, Jonathan Baxter, Peter Bartlett, Marcus Frean*
 
 ### Unsupervised and semi-supervised feature selection
+- **FSSEM** Feature Subset Selection using Expectation-Maximization
+  - [Feature Selection for Unsupervised Learning](http://www.jmlr.org/papers/volume5/dy04a/dy04a.pdf) (2004) *Jennifer G. Dy, Carla E. Brodley*
+- **Laplacian Score**
+  - [Laplacian Score for Feature Selection](https://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection.pdf) (2005) *Xiaofei  He, Deng  Cai, Deng Cai, Partha  Niyogi, Partha Niyogi*
+- **Principal Feature Analysis**
+  - [Feature Selection Using Principal Feature Analysis](http://venom.cs.utsa.edu/dmz/techrep/2007/CS-TR-2007-011.pdf) (2007) *Yijuan Lu, Ira Cohen, Xiang Sean Zhou, Qi Tian*
+- **Spectral Feature Selection**
+  - [Spectral Feature Selection forSupervised and Unsupervised Learning](https://www.public.asu.edu/~huanliu/papers/icml07.pdf) (2007) *Zheng Zhao, Huan Liu*
+- **Autoencoders** ([Wiki](https://en.wikipedia.org/wiki/Autoencoder))
+  - [Autoencoders, Unsupervised Learning, and Deep Architectures](http://proceedings.mlr.press/v27/baldi12a/baldi12a.pdf) (2012) *Pierre Baldi*
+  - [An Introduction to Variational Autoencoders](https://arxiv.org/pdf/1906.02691.pdf) (2019) *Diederik P. Kingma, Max Welling*
+  - [Concrete Autoencoders for Differentiable Feature Selection and Reconstruction](https://arxiv.org/pdf/1901.09346.pdf) (2019) *Abubakar Abid, Muhammad Fatih Balin, James Zou*
 
 ### Packages
-- *R*
+- **R**
   - Package: fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
   - Package: praznik ([Code](https://gitlab.com/mbq/praznik)) *Miron Kursa*
   - Package: FSinR ([CRAN](https://cran.r-project.org/web/packages/FSinR/), [Paper](https://arxiv.org/pdf/2002.10330.pdf)) *Francisco Aragón-Royón, Alfonso Jiménez-Vílchez, Antonio Arauzo-Azofra, José Manuel Benítez*
   - Package: VSURF ([CRAN](https://cran.r-project.org/web/packages/VSURF/), [Paper](https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf))
   - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
-- *Python*
+- **Python**
   - Package: sklearn.feature_selection
 
