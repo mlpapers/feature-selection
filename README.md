@@ -11,6 +11,8 @@ Why feature selection?
   - [An Introduction to Variable and Feature Selection](http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf) (2003) *Isabelle Guyon, Andre Elisseeff*
   - [A Survey on Feature Selection](https://www.sciencedirect.com/science/article/pii/S1877050916313047) (2016) *Jianyu Miaoac, Lingfeng Niu*
   - [Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review](https://arxiv.org/pdf/1905.02845.pdf) (2019) *Benyamin Ghojogh, Maria N. Samad, Sayema Asif Mashhadi,Tania Kapoor, Wahab Ali, Fakhri Karray, Mark Crowle*
+- **All-relevant vs minimal-optimal feature selection**
+  - [Consistent Feature Selection for Pattern Recognition in Polynomial Time](http://jmlr.csail.mit.edu/papers/volume8/nilsson07a/nilsson07a.pdf) (2007) *R. Nilsson, J. M. Peña, J. Björkegren, J. Tegnér*
 
 ### Filter methods
 Filter methods use model-free ranking to filter less relevant features
@@ -66,15 +68,23 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Regularization and variable selection via the elastic net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) (2005) *Hui Zou, Trevor Hastie*
 - **Decision Tree** ([Wiki](https://en.wikipedia.org/wiki/Decision_tree))
 - **Random Forest** ([Wiki](https://en.wikipedia.org/wiki/Random_forest))
+  - [Random Forests](https://link.springer.com/article/10.1023/A:1010933404324) (2001) *Leo Breiman*
+  - [Overview of Random Forest Methodology and Practical Guidance with Emphasis on Computational Biology and Bioinformatic](https://epub.ub.uni-muenchen.de/13766/1/TR.pdf) (2012) *Anne-Laure Boulesteix, Silke Janitza, Jochen Kruppa, Inke R. Konig*
+  - [Variable selection using random forests](https://hal.archives-ouvertes.fr/hal-00755489/file/PRLv4.pdf) (2010) *Robin Genuer, Jean-Michel Poggi, Christine Tuleau-Malot*
+  - [Bias in random forest variable importance measures: Illustrations, sources and a solution](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1796903/pdf/1471-2105-8-25.pdf) (2007) *Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn*
+  - [Conditional Variable Importance for Random Forests](https://epub.ub.uni-muenchen.de/2821/1/deck.pdf) (2008) *Carolin Strobl, Anne-Laure Boulesteix, Thomas Kneib, Thomas Augustin, Achim Zeileis*
+  - [Correlation and variable importance in random forests](https://arxiv.org/pdf/1310.5726.pdf) (2016) *Baptiste Gregorutti, Bertrand Michel, Philippe Saint-Pierre*
 - **Gradient Boosting** ([Wiki](https://en.wikipedia.org/wiki/Gradient_boosting))
 
 ### Unsupervised and semi-supervised feature selection
 
 ### Packages
 - *R*
-  - fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
-  - praznik ([Code](https://gitlab.com/mbq/praznik)) *Miron Kursa*
-  - FSinR ([CRAN](https://cran.r-project.org/web/packages/FSinR/), [Paper](https://arxiv.org/pdf/2002.10330.pdf)) *Francisco Aragón-Royón, Alfonso Jiménez-Vílchez, Antonio Arauzo-Azofra, José Manuel Benítez*
+  - Package: fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
+  - Package: praznik ([Code](https://gitlab.com/mbq/praznik)) *Miron Kursa*
+  - Package: FSinR ([CRAN](https://cran.r-project.org/web/packages/FSinR/), [Paper](https://arxiv.org/pdf/2002.10330.pdf)) *Francisco Aragón-Royón, Alfonso Jiménez-Vílchez, Antonio Arauzo-Azofra, José Manuel Benítez*
+  - Package: VSURF ([CRAN](https://cran.r-project.org/web/packages/VSURF/), [Paper](https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf))
+  - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
 - *Python*
-  - sklearn.feature_selection
+  - Package: sklearn.feature_selection
 
