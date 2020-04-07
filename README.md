@@ -58,8 +58,6 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Variable selection and validation in multivariate modelling](https://academic.oup.com/bioinformatics/article/35/6/972/5085367) (2018) *Lin Shi, Johan A Westerhuis, Johan Rosén, Rikard Landberg, Carl Brunius*
 - Wrappers methods and overfitting:
   - [Wrappers for feature subset selection](http://machine-learning.martinsewell.com/feature-selection/KohaviJohn1997.pdf) (1996) *Ron Kohavi, George H. John*
-- Packages:
-  - fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/))
 
 ### Embedded methods
 - **LASSO**
@@ -71,3 +69,12 @@ Wrapper methods use a model and its performance to find the best feature subset
 - **Gradient Boosting** ([Wiki](https://en.wikipedia.org/wiki/Gradient_boosting))
 
 ### Unsupervised and semi-supervised feature selection
+
+### Packages
+- *R*
+  - fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
+  - praznik ([Code](https://gitlab.com/mbq/praznik)) *Miron Kursa*
+  - FSinR ([CRAN](https://cran.r-project.org/web/packages/FSinR/), [Paper](https://arxiv.org/pdf/2002.10330.pdf)) *Francisco Aragón-Royón, Alfonso Jiménez-Vílchez, Antonio Arauzo-Azofra, José Manuel Benítez*
+- *Python*
+  - sklearn.feature_selection
+
