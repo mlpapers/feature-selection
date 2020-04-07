@@ -100,7 +100,7 @@ Wrapper methods use a model and its performance to find the best feature subset
   - Package: VSURF ([CRAN](https://cran.r-project.org/web/packages/VSURF/), [Paper](https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf))
   - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
 - **Python**
-  - Package: sklearn.feature_selection
+  - Package: sklearn.feature_selection ([Homepage](https://scikit-learn.org/stable/), [Code](https://github.com/scikit-learn/scikit-learn), [PyPI](https://pypi.org/project/scikit-learn/))
   - Package: feature-selector ([Code](https://github.com/WillKoehrsen/feature-selector), [PyPI](https://pypi.org/project/feature-selector/))
 
 
