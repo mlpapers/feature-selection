@@ -14,8 +14,13 @@ Why feature selection?
 
 ### Filter methods
 Filter methods use model-free ranking to filter less relevant features
+- **Missing Values Ratio**
+  - Removing features with a ratio of missing values greater than some threshold
+- **Low Variance Filter** ([sklearn](https://scikit-learn.org/stable/modules/feature_selection.html#removing-features-with-low-variance))
+  - Removing features with a variance lower than some threshold
 - **Correlation** ([Wiki](https://en.wikipedia.org/wiki/Correlation_and_dependence))
-- **χ²** Chi-squared statistic ([Wiki](https://en.wikipedia.org/wiki/Chi-squared_test))
+- **χ²** Chi-squared statistic for categorical features ([Wiki](https://en.wikipedia.org/wiki/Chi-squared_test), [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.chi2.html))
+- **ANOVA** F-value for quantitative features([Wiki](https://en.wikipedia.org/wiki/Analysis_of_variance), [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_classif.html))
 - **Mutual information** ([Wiki](https://en.wikipedia.org/wiki/Mutual_information))
   - [Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection](http://jmlr.csail.mit.edu/papers/volume13/brown12a/brown12a.pdf) (2012) *Gavin Brown, Adam Pocock, Ming-Jie Zhao, Mikel Lujan*
   - [Feature Selection Based on Joint Mutual Information](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.4424) (1999) *Howard Hua Yang, John Moody*
@@ -30,6 +35,12 @@ Filter methods use model-free ranking to filter less relevant features
   - Grow-Shrink algorithm: [Bayesian Network Induction via Local Neighborhoods](http://robots.stanford.edu/papers/Margaritis99a.pdf) (2000) *Dimitris Margaritis, Sebastian Thrun*
   - Koller-Sahami method: [Toward Optimal Feature Selection](http://ilpubs.stanford.edu:8090/208/1/1996-77.pdf) (1996) *Daphne Koller and Mehran Sahami*
   - Max-Min Markov Blanket: [Time and Sample Efficient Discovery of Markov Blankets and Direct Causal Relations](https://dl.acm.org/doi/10.1145/956750.956838) (2003) *Ioannis Tsamardinos, Constantin F. Aliferis, Alexander Statnikov*
+- **Fast Correlation-based Filter**
+  - [Feature Selection for High-Dimensional Data: A Fast Correlation-Based Filter Solution](https://www.public.asu.edu/~huanliu/papers/icml03.pdf) (2003) *Lei Yu, Huan Liu*
+- **CBF** Consistency-Based Filters
+  - [Consistency-based search in feature selection](https://www.public.asu.edu/~huanliu/papers/aij03.pdf) (2003) *Manoranjan Dasha, Huan Liu*
+- **Interact**
+  - [Searching for Interacting Features](https://www.public.asu.edu/~huanliu/papers/ijcai07.pdf) (2007) *Zheng Zhao, Huan Liu*
 
 ### Wrapper methods
 Wrapper methods use a model and its performance to find the best feature subset
@@ -47,11 +58,16 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Variable selection and validation in multivariate modelling](https://academic.oup.com/bioinformatics/article/35/6/972/5085367) (2018) *Lin Shi, Johan A Westerhuis, Johan Rosén, Rikard Landberg, Carl Brunius*
 - Wrappers methods and overfitting:
   - [Wrappers for feature subset selection](http://machine-learning.martinsewell.com/feature-selection/KohaviJohn1997.pdf) (1996) *Ron Kohavi, George H. John*
+- Packages:
+  - fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/))
 
 ### Embedded methods
 - **LASSO**
   - [Regression Shrinkage and Selection via the lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) (1996) *Robert Tibshirani*
 - **Elastic net**
   - [Regularization and variable selection via the elastic net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) (2005) *Hui Zou, Trevor Hastie*
+- **Decision Tree** ([Wiki](https://en.wikipedia.org/wiki/Decision_tree))
+- **Random Forest** ([Wiki](https://en.wikipedia.org/wiki/Random_forest))
+- **Gradient Boosting** ([Wiki](https://en.wikipedia.org/wiki/Gradient_boosting))
 
 ### Unsupervised and semi-supervised feature selection
