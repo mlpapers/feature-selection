@@ -56,6 +56,7 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Feature Selection using PSO-SVM](http://www.iaeng.org/IJCS/issues_v33/issue_1/IJCS_33_1_18.pdf) (2007) *Chung-Jui Tu, Li-Yeh Chuang, Jun-Yang Chang, Cheng-Hong Yang*
 - **Boruta** All-relevant feature selection ([CRAN](https://cran.r-project.org/web/packages/Boruta/), [PyPI](https://pypi.org/project/Boruta/))
   - [Boruta – A System for Feature Selection](https://www.mimuw.edu.pl/~ajank/papers/Kursa2010.pdf) (2010) *Miron B. Kursa,  Aleksander Jankowski,  Witold R. Rudnick*
+  - BoostARoota - Boruta with XGBoost as a base model ([Code](https://github.com/chasedehan/BoostARoota))
 - **MUVR** ([GitLab](https://gitlab.com/CarlBrunius/MUVR))
   - [Variable selection and validation in multivariate modelling](https://academic.oup.com/bioinformatics/article/35/6/972/5085367) (2018) *Lin Shi, Johan A Westerhuis, Johan Rosén, Rikard Landberg, Carl Brunius*
 - Wrappers methods and overfitting:
