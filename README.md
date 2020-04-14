@@ -31,6 +31,7 @@ Filter methods use model-free ranking to filter less relevant features
   - [Feature selection based on mutual information: criteria of max-dependency, max-relevance, and min-redundancy](http://home.penglab.com/papersall/docpdf/2005_TPAMI_FeaSel.pdf) (2005) *Hanchuan Peng, Fuhui Long, Chris Ding*
 - **Relief** ([Wiki](https://en.wikipedia.org/wiki/Relief_(feature_selection)))
   - [The Feature Selection Problem: Traditional Methods and a New Algorithm](https://www.aaai.org/Papers/AAAI/1992/AAAI92-020.pdf) (1992) *Kira Kenji, Larry Rendell*
+  - [Relief-Based Feature Selection: Introduction and Review](https://arxiv.org/pdf/1711.08421.pdf) (2018) *Ryan J. Urbanowicz, Melissa Meeker, William LaCava, Randal S. Olson, Jason H.Moore*
 - **Markov Blanket** ([Wiki](https://en.wikipedia.org/wiki/Markov_blanket))
   - [Markov Blanket based Feature Selection: A Review of Past Decade](http://www.iaeng.org/publication/WCE2010/WCE2010_pp321-328.pdf) (2010) *Shunkai Fu, Michel C. Desmarais*
   - Incremental Association Markov Blanket: [Algorithms for Large Scale Markov Blanket Discovery](https://www.aaai.org/Papers/FLAIRS/2003/Flairs03-073.pdf) (2003) *Ioannis Tsamardinos, Constantin F. Aliferis, Alexander Statnikov*
