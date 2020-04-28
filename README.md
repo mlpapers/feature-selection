@@ -84,11 +84,15 @@ Wrapper methods use a model and its performance to find the best feature subset
 - **FSSEM** Feature Subset Selection using Expectation-Maximization
   - [Feature Selection for Unsupervised Learning](http://www.jmlr.org/papers/volume5/dy04a/dy04a.pdf) (2004) *Jennifer G. Dy, Carla E. Brodley*
 - **Laplacian Score**
+  - Choosing features using a nearest neighbor graph
   - [Laplacian Score for Feature Selection](https://papers.nips.cc/paper/2909-laplacian-score-for-feature-selection.pdf) (2005) *Xiaofei  He, Deng  Cai, Deng Cai, Partha  Niyogi, Partha Niyogi*
 - **Principal Feature Analysis**
   - [Feature Selection Using Principal Feature Analysis](http://venom.cs.utsa.edu/dmz/techrep/2007/CS-TR-2007-011.pdf) (2007) *Yijuan Lu, Ira Cohen, Xiang Sean Zhou, Qi Tian*
 - **Spectral Feature Selection**
+  - Separates samples into clusters using a spectrum of pairwise similarity graph
   - [Spectral Feature Selection forSupervised and Unsupervised Learning](https://www.public.asu.edu/~huanliu/papers/icml07.pdf) (2007) *Zheng Zhao, Huan Liu*
+- **MCFS** Multi-cluster Feature Selection
+  - [Unsupervised Feature Selection for Multi-Cluster Data](https://wwwx.cs.unc.edu/Courses/comp790-090-s11/Presentations/p333-cai.pdf) (2010) *Deng Cai, Chiyuan Zhang, Xiaofei He*
 - **Autoencoders** ([Wiki](https://en.wikipedia.org/wiki/Autoencoder))
   - [Autoencoders, Unsupervised Learning, and Deep Architectures](http://proceedings.mlr.press/v27/baldi12a/baldi12a.pdf) (2012) *Pierre Baldi*
   - [An Introduction to Variational Autoencoders](https://arxiv.org/pdf/1906.02691.pdf) (2019) *Diederik P. Kingma, Max Welling*
