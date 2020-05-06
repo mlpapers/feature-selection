@@ -68,6 +68,9 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [Regression Shrinkage and Selection via the lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) (1996) *Robert Tibshirani*
 - **Elastic net**
   - [Regularization and variable selection via the elastic net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) (2005) *Hui Zou, Trevor Hastie*
+- **Spike and Slab regression** ([Wiki](https://en.wikipedia.org/wiki/Spike-and-slab_regression))
+  - [Bayesian variable selection in linear regression](1988) *T.J. Mitchell, J.J. Beuchamp*
+  - [Approaches for Bayesian variable selection](http://www-stat.wharton.upenn.edu/~edgeorge/Research_papers/GeorgeMcCulloch97.pdf) (1997) *Edward I. George, Robert E. McCulloch*
 - **Decision Tree** ([Wiki](https://en.wikipedia.org/wiki/Decision_tree))
 - **Random Forest** ([Wiki](https://en.wikipedia.org/wiki/Random_forest))
   - [Random Forests](https://link.springer.com/article/10.1023/A:1010933404324) (2001) *Leo Breiman*
