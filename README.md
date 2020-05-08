@@ -101,6 +101,10 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [An Introduction to Variational Autoencoders](https://arxiv.org/pdf/1906.02691.pdf) (2019) *Diederik P. Kingma, Max Welling*
   - [Concrete Autoencoders for Differentiable Feature Selection and Reconstruction](https://arxiv.org/pdf/1901.09346.pdf) (2019) *Abubakar Abid, Muhammad Fatih Balin, James Zou*
 
+### Domain-specific
+- **Uplift models**
+  - [Feature Selection Methods for Uplift Modeling](https://arxiv.org/pdf/2005.03447.pdf) (2020) *Zhenyu Zhao, Yumin Zhang, Totte Harinen, Mike Yung*
+
 ### Packages
 - **R**
   - Package: fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
