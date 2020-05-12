@@ -101,6 +101,12 @@ Wrapper methods use a model and its performance to find the best feature subset
   - [An Introduction to Variational Autoencoders](https://arxiv.org/pdf/1906.02691.pdf) (2019) *Diederik P. Kingma, Max Welling*
   - [Concrete Autoencoders for Differentiable Feature Selection and Reconstruction](https://arxiv.org/pdf/1901.09346.pdf) (2019) *Abubakar Abid, Muhammad Fatih Balin, James Zou*
 
+### Stable feature selection
+- [Stability of Feature Selection Algorithms: a study on high dimensional spaces](http://cui.unige.ch/~kalousis/papers/stability/KalousisPradosHilarioKIS2007.pdf) (2007) *Alexandros Kalousis, Julien Prados, Melanie Hilario*
+- [Robust Feature Selection Using Ensemble Feature Selection Techniques](http://bioinformatics.psb.ugent.be/pdf/publications/978-3-540-87481-2.pdf) (2008) *Yvan Saeys, Thomas Abeel, Yves Van de Pee*
+- [Stability Selection](https://stat.ethz.ch/~nicolai/stability.pdf) (2009) *Nicolai Meinshausen, Peter Buhlmann*
+- [A Novel Weighted Combination Method for Feature Selection using Fuzzy Sets](https://arxiv.org/pdf/2005.05003.pdf) (2020) *Zixiao Shen, Xin Chen, Jonathan M. Garibald*
+
 ### Domain-specific
 - **Uplift models**
   - [Feature Selection Methods for Uplift Modeling](https://arxiv.org/pdf/2005.03447.pdf) (2020) *Zhenyu Zhao, Yumin Zhang, Totte Harinen, Mike Yung*
