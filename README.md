@@ -10,6 +10,7 @@ Why feature selection?
 - **Overview**
   - [An Introduction to Variable and Feature Selection](http://jmlr.csail.mit.edu/papers/volume3/guyon03a/guyon03a.pdf) (2003) *Isabelle Guyon, Andre Elisseeff*
   - [A Survey on Feature Selection](https://www.sciencedirect.com/science/article/pii/S1877050916313047) (2016) *Jianyu Miaoac, Lingfeng Niu*
+  - [Feature Selection: A Data Perspective](https://arxiv.org/pdf/1601.07996.pdf) (2016) *Jundong Li, Kewei Cheng, Suhang Wang, Fred Morstatter, Robert P. Trevino, Jiliang Tang, Huan Liu*
   - [Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review](https://arxiv.org/pdf/1905.02845.pdf) (2019) *Benyamin Ghojogh, Maria N. Samad, Sayema Asif Mashhadi,Tania Kapoor, Wahab Ali, Fakhri Karray, Mark Crowle*
 - **All-relevant vs minimal-optimal feature selection**
   - [Consistent Feature Selection for Pattern Recognition in Polynomial Time](http://jmlr.csail.mit.edu/papers/volume8/nilsson07a/nilsson07a.pdf) (2007) *R. Nilsson, J. M. Peña, J. Björkegren, J. Tegnér*
@@ -120,6 +121,7 @@ Wrapper methods use a model and its performance to find the best feature subset
   - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
 - **Python**
   - Package: sklearn.feature_selection ([Homepage](https://scikit-learn.org/stable/), [Code](https://github.com/scikit-learn/scikit-learn), [PyPI](https://pypi.org/project/scikit-learn/))
+  - Package: scikit-feature ([Homepage](http://featureselection.asu.edu/), [Code](https://github.com/jundongl/scikit-feature))
   - Package: feature-selector ([Code](https://github.com/WillKoehrsen/feature-selector), [PyPI](https://pypi.org/project/feature-selector/))
 
 ### Julia Packages
