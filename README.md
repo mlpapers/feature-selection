@@ -112,6 +112,11 @@ Wrapper methods use a model and its performance to find the best feature subset
 - **Uplift models**
   - [Feature Selection Methods for Uplift Modeling](https://arxiv.org/pdf/2005.03447.pdf) (2020) *Zhenyu Zhao, Yumin Zhang, Totte Harinen, Mike Yung*
 
+### Meta feature selection
+- [A Feature Subset Selection Algorithm AutomaticRecommendation Method](https://arxiv.org/pdf/1402.0570.pdf) (2013) *Guangtao Wang, Qinbao Song, Heli Sun, Xueying Zhang, Baowen Xu, Yuming Zhou*
+- [Metalearning for Choosing Feature Selection Algorithms in Data Mining: Proposal of a New Framework](https://www.researchgate.net/profile/Antonio_Parmezan/publication/312482443_Metalearning_for_Choosing_Feature_Selection_Algorithms_in_Data_Mining_Proposal_of_a_New_Framework/links/5c3f0e7f92851c22a378a5a6/Metalearning-for-Choosing-Feature-Selection-Algorithms-in-Data-Mining-Proposal-of-a-New-Framework.pdf) (2017) *Antonio Rafael Sabino Parmezan, Huei Diana Lee*
+- [A Novel Meta Learning Framework for Feature Selection using Data Synthesis and Fuzzy Similarity](https://arxiv.org/pdf/2005.09856.pdf) (2020) *Zixiao Shen, Xin Chen, Jonathan M. Garibald*
+
 ### Packages
 - **R**
   - Package: fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
