@@ -107,6 +107,7 @@ Wrapper methods use a model and its performance to find the best feature subset
 - [Robust Feature Selection Using Ensemble Feature Selection Techniques](http://bioinformatics.psb.ugent.be/pdf/publications/978-3-540-87481-2.pdf) (2008) *Yvan Saeys, Thomas Abeel, Yves Van de Pee*
 - [Stability Selection](https://stat.ethz.ch/~nicolai/stability.pdf) (2009) *Nicolai Meinshausen, Peter Buhlmann*
 - [A Novel Weighted Combination Method for Feature Selection using Fuzzy Sets](https://arxiv.org/pdf/2005.05003.pdf) (2020) *Zixiao Shen, Xin Chen, Jonathan M. Garibald*
+- Stability of MDA, LIME and SHAP: [The best way to select features](https://arxiv.org/pdf/2005.12483.pdf) (2020) *Xin Man, Ernest P. Chan*
 
 ### Domain-specific
 - **Uplift models**
