@@ -125,6 +125,7 @@ Wrapper methods use a model and its performance to find the best feature subset
   - Package: FSinR ([CRAN](https://cran.r-project.org/web/packages/FSinR/), [Paper](https://arxiv.org/pdf/2002.10330.pdf)) *Francisco Aragón-Royón, Alfonso Jiménez-Vílchez, Antonio Arauzo-Azofra, José Manuel Benítez*
   - Package: VSURF ([CRAN](https://cran.r-project.org/web/packages/VSURF/), [Paper](https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf))
   - Package: spikeSlabGAM ([Code](https://github.com/fabian-s/spikeSlabGAM), [CRAN](https://cran.r-project.org/web/packages/spikeSlabGAM/), [Paper](https://www.jstatsoft.org/article/view/v043i14))
+  - Package: copent ([CRAN](https://cran.r-project.org/web/packages/copent/), [Code](https://github.com/majianthu/copent), [Paper](https://arxiv.org/pdf/2005.14025.pdf))
 - **Python**
   - Package: sklearn.feature_selection ([Homepage](https://scikit-learn.org/stable/), [Code](https://github.com/scikit-learn/scikit-learn), [PyPI](https://pypi.org/project/scikit-learn/))
   - Package: scikit-feature ([Homepage](http://featureselection.asu.edu/), [Code](https://github.com/jundongl/scikit-feature))
