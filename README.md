@@ -1,3 +1,11 @@
+---
+title: "Feature Selection"
+aliases: ["Variable selection", "Feature subset selection"]
+tags:
+  - feature-engineering
+  - supervised
+  - unsupervised
+---
 # Feature selection (variable selection)
 > Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
 
@@ -118,7 +126,7 @@ Wrapper methods use a model and its performance to find the best feature subset
 - [Metalearning for Choosing Feature Selection Algorithms in Data Mining: Proposal of a New Framework](https://www.researchgate.net/profile/Antonio_Parmezan/publication/312482443_Metalearning_for_Choosing_Feature_Selection_Algorithms_in_Data_Mining_Proposal_of_a_New_Framework/links/5c3f0e7f92851c22a378a5a6/Metalearning-for-Choosing-Feature-Selection-Algorithms-in-Data-Mining-Proposal-of-a-New-Framework.pdf) (2017) *Antonio Rafael Sabino Parmezan, Huei Diana Lee*
 - [A Novel Meta Learning Framework for Feature Selection using Data Synthesis and Fuzzy Similarity](https://arxiv.org/pdf/2005.09856.pdf) (2020) *Zixiao Shen, Xin Chen, Jonathan M. Garibald*
 
-### Packages
+## Software
 - **R**
   - Package: fscaret ([CRAN](https://cran.r-project.org/web/packages/fscaret/)) *Jakub Szlek*
   - Package: praznik ([Code](https://gitlab.com/mbq/praznik)) *Miron Kursa*
@@ -132,3 +140,8 @@ Wrapper methods use a model and its performance to find the best feature subset
   - Package: feature-selector ([Code](https://github.com/WillKoehrsen/feature-selector), [PyPI](https://pypi.org/project/feature-selector/))
 - **Julia**
   - the main packages for ML in Julia are [MLJ](https://github.com/alan-turing-institute/MLJ.jl) and [Flow](https://fluxml.ai/Flux.jl/stable/)
+
+## Related Topics
+- [Feature Extraction](https://mlpapers.org/feature-extraction/)
+- [Ensemble Learning](https://mlpapers.org/ensemble-learning/)
+- [AutoML](https://mlpapers.org/automl/)
