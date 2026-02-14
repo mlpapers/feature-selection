@@ -1,11 +1,3 @@
----
-title: "Feature Selection"
-aliases: ["Variable selection", "Feature subset selection"]
-tags:
-  - feature-engineering
-  - supervised
-  - unsupervised
----
 # Feature selection (variable selection)
 > Feature selection is the process of selecting a subset of relevant features (variables, predictors) for use in model construction ([Wikipedia](https://en.wikipedia.org/wiki/Feature_selection))
 
