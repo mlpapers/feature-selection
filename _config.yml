@@ -1,1 +1,17 @@
-remote_theme: mlpapers/minimal
+remote_theme: jseeio/minima
+logo_header:
+  src: https://mlpapers.org/assets/logo-mark.png
+  text: mlpapers
+  href: https://mlpapers.org/
+  height: 34
+header_pages:
+- null
+minima:
+  social_links:
+    github: mlpapers
+    twitter: mlpapers
+defaults:
+- scope:
+    path: README.md
+  values:
+    layout: page
