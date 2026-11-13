@@ -12,6 +12,7 @@
 
 - **XOR example** - For independent fair bits, Y = X1 XOR X2 is independent of either input alone, yet determined by their pair. Even nonlinear univariate dependence scores can miss joint information. [Brown et al. 2012](<https://jmlr.org/papers/v13/brown12a.html> "Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection; Journal of Machine Learning Research").
 - **Duplicate example** - If X1 = X2 = Y, either input predicts perfectly, and each is conditionally uninformative given the other. Changing between these subsets need not change predictions. [Statnikov et al. 2013](<https://jmlr.org/papers/v14/statnikov13a.html> "Algorithms for Discovery of Multiple Markov Boundaries; JMLR").
+- **Interaction selection** - [LENS](https://mlpapers.org/interpretability/#feature-effects-and-global-importance) tests interaction surfaces of fitted predictors. For variable-selection frequencies and error control, see [stability selection and knockoffs](#resampling-error-control-and-post-selection-inference).
 
 ## Comparative evidence
 
